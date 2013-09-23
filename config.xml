@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.lamakun.costadelsol"
+    version   = "1.0.0">
+
+<name>Costa del Sol Occidental</name>
+
+<description>
+
+</description>
+
+<author href="" email="carranquita1@hotmail.com">
+	Iván Pallarés
+</author>
+
+<preference name="splash-screen-duration" value="10000" />
+<preference name="orientation" value="portrait" />
+
+<gap:splash src="img/ldpi/splash/splash-ldpi.jpg" 		gap:platform="android" gap:density="ldpi" />
+<gap:splash src="img/mdpi/splash/splash-mdpi.jpg" 		gap:platform="android" gap:density="mdpi" />
+<gap:splash src="img/hdpi/splash/splash-hdpi.jpg" 		gap:platform="android" gap:density="hdpi" />
+<gap:splash src="img/xhdpi/splash/splash-xhdpi.jpg" 	gap:platform="android" gap:density="xhdpi" />
+
+<icon src="img/ldpi/icons/launcher-ldpi.png" 	gap:platform="android" gap:density="ldpi" />
+<icon src="img/mdpi/icons/launcher-mdpi.png" 	gap:platform="android" gap:density="mdpi" />
+<icon src="img/hdpi/icons/launcher-hdpi.png" 	gap:platform="android" gap:density="hdpi" />
+<icon src="img/xhdpi/icons/launcher-xhdpi.png" 	gap:platform="android" gap:density="xhdpi" />
+
+<access origin="*"/>
+
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+
+</widget>

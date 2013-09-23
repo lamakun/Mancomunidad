@@ -1,0 +1,2111 @@
+	* {
+		-webkit-box-sizing:border-box; 
+	}
+	html{
+		font-family: Helvetica,Arial,sans-serif;
+		text-shadow:none !important;
+	}
+	h2{
+		color:white;
+		text-align: center;
+		-webkit-box-shadow: 0px 3px 6px #666;
+	}
+	a{
+		text-decoration:none;
+		color:white !important;	
+		font-weight:normal !important;
+	}
+
+	#loading_div{
+		position: relative;
+		margin-left: 50%;
+		background-size: 100% 100% !important;
+		width:18px;
+		height:16px;
+		margin-bottom:30px;
+	}
+
+	#loading_message{
+		width: 100px;
+		margin:auto;
+	}
+
+	.clear{
+		clear:both;
+		height:5px;
+	}
+	
+	.ui-content{
+		padding:0 !important
+	}
+	.ui-footer .ui-title {
+		margin: 0 0 0 !important;
+	}
+	
+	.ui-btn-up-a, .ui-btn-hover-a {
+		border: none;
+		background: none;
+		text-shadow: 0;
+	}
+	.ui-btn-inner.ui-btn-corner-all{
+		padding:0 !important;
+	}
+	.header {
+		color:white;
+	}
+	
+	.header.costadelsol{
+		background-size: 100% 100% !important;
+		background:url(../img/shared/degradados/costadelsol/header.png) repeat-x !IMPORTANT;	
+	}	
+	
+	.boton{
+		position:relative;
+		background-size: 100% 100% !important;
+		text-align:center;	
+	}
+	
+	.back_button{
+		float:left;
+		top:0;
+		background-size: 100% 100% !important;
+		background-position: center;
+		text-align:center;			
+	}
+	.flecha{
+		float:right;
+		background:url(../img/shared/misc/flecha.png) right no-repeat;
+		background-size: 100% 100% !important;		
+	}
+	
+	/*******************************************************************  HOME ***********************************************************************/
+	
+	#home{
+		color:white;
+		background-color:#FFFFFF !important;
+		background-size: 135% Auto;
+		background-position: center;
+	}
+	
+	#home #language_links a{
+		border:1px solid white;
+	}
+	
+	#home div.bandera{
+		background-size:100% 100% !important;
+		float:left;
+	}
+	
+	#home div#espanol{
+		background-image:url(../img/shared/banderas/bandera_espana.png);
+	}
+	
+	#home div#ingles{
+		background-image:url(../img/shared/banderas/bandera_inglaterra.png);
+	}
+	
+	#home div#frances{
+		background-image:url(../img/shared/banderas/bandera_francia.png);
+	}
+	
+	#home div#aleman{
+		background-image:url(../img/shared/banderas/bandera_alemania.png);
+	}	
+	
+	/*******************************************************************  MENU PRINICPAL ***********************************************************************/
+	#listado_categorias_costadelsol .cat_div{
+		background-size:100% 100% !important;
+		float:left;
+	}
+	
+	#listado_categorias_costadelsol .content{
+		background:url(../img/shared/degradados/costadelsol/bg.png) repeat-x !IMPORTANT;		
+	}	
+	
+	#listado_categorias_costadelsol .cat_name{
+		text-align:center;
+	}
+	
+	#listado_categorias_costadelsol .cat_div.playas_y_rutas{
+		background:url(../img/shared/iconos/costadelsol/icono-playas_y_rutas.png) no-repeat;
+	}
+	
+	#listado_categorias_costadelsol .cat_div.costadelsol{
+		background:url(../img/shared/iconos/costadelsol/icono-costadelsol.png) no-repeat;
+	}
+	
+	#listado_categorias_costadelsol .cat_div.cultura_y_tradicion{
+		background:url(../img/shared/iconos/costadelsol/icono-cultura_y_tradicion.png) no-repeat;
+		margin-left: 5px;		
+	}
+	
+	#listado_categorias_costadelsol .cat_div.deportes{
+		background:url(../img/shared/iconos/costadelsol/icono-deportes.png) no-repeat;
+	}
+	
+	#listado_categorias_costadelsol .cat_div.eventos{
+		background:url(../img/shared/iconos/costadelsol/icono-eventos.png) no-repeat;
+	}
+	
+	#listado_categorias_costadelsol .cat_div.masinfo{
+		background:url(../img/shared/iconos/costadelsol/icono-masinfo.png) no-repeat;
+	}
+	
+	#listado_categorias_costadelsol .cat_div.ocio{
+		background:url(../img/shared/iconos/costadelsol/icono-ocio.png) no-repeat;
+	}
+	
+	#listado_categorias_costadelsol .cat_div.telefonos_y_transportes{
+		background:url(../img/shared/iconos/costadelsol/icono-telefonos_y_transportes.png)no-repeat;
+	}
+	
+	#listado_categorias_costadelsol .cat_div.eltiempo{
+		background:url(../img/shared/iconos/costadelsol/icono-eltiempo.png) no-repeat;
+	}	
+	
+	
+	/*******************************************************************  LISTADO DE SUBCATEGORÍAS ***********************************************************************/
+	
+		#listado_subcategorias .cat_div .icono{
+			float:left;
+			background-size:100% 100% !important;
+		}	
+		#listado_subcategorias .cat_div .nombre{
+			float:left;
+		}	
+		/************************************************************* LISTADO SUBCATEGORÍAS COSTADELSOL */
+		#listado_subcategorias.costadelsol .back_button{
+			background:url(../img/ldpi/misc/costadelsol/back_to_listado_categorias.png) no-repeat;
+			background-size: 100% 100% !important;
+			padding:0 !important;
+		}	
+		#listado_subcategorias.costadelsol .cat_div, #listado_subcategorias .costadelsol .void_row{
+			border-bottom:1px solid #888888;
+		}	
+		#listado_subcategorias.costadelsol .content{
+			background:url(../img/shared/degradados/costadelsol/bg.png) repeat-x !important;		
+		}	
+
+
+
+		/************************************************************* LISTADO SUBCATEGORÍAS POBLACION */	
+		#listado_subcategorias.poblacion .cat_div{
+			border-bottom:1px solid #888888;
+		}
+		
+		#listado_subcategorias.poblacion .cat_div .nombre{
+			color:#666666;
+		}
+	/*******************************************************************  MAPA ***********************************************************************/
+	#mapa_costadelsol .back_button{
+		background-size: 100% 100% !important;
+		background:url(../img/shared/botones/costadelsol/back_to_listado_categorias.png) no-repeat;
+		padding:0 !important;
+	}	
+	
+	#mapa_costadelsol .content{
+		background:url(../img/shared/degradados/costadelsol/bg.png) repeat-x !IMPORTANT;
+		background-position:top left;
+		color:white;
+	}
+	
+	#mapa_costadelsol .descripcion{
+		width:90%;
+		margin-left:5%;
+		margin:auto;
+	}
+	
+	#mapa_costadelsol #mapa{
+		background-size:100% 100% !important;
+		background-image:url(../img/shared/misc/mapa.png);
+		background-position:top left;	
+		background-repeat:no-repeat;
+		text-align:center;
+	}
+
+	.descripcion_poblacion{
+		width:	90%;
+		color:white !important;
+		margin:auto;
+	}
+		/************************************ CASARES *****************************************************/
+		#mapa_costadelsol #mapa .boton#casares{
+			background:url(../img/shared/botones/casares/boton.png);
+		}
+		/************************************ BENAHAVIS *****************************************************/
+		#mapa_costadelsol #mapa .boton#benahavis{
+			background:url(../img/shared/botones/benahavis/boton.png);
+		}
+		
+		/************************************ ISTÁN *****************************************************/
+		#mapa_costadelsol #mapa .boton#istan{
+			background:url(../img/shared/botones/istan/boton.png);
+		}
+	
+		/************************************ OJEN *****************************************************/
+		#mapa_costadelsol #mapa .boton#ojen{
+			background:url(../img/shared/botones/ojen/boton.png);
+		}
+	
+		/************************************ TORREMOLINOS *****************************************************/
+		#mapa_costadelsol #mapa .boton#torremolinos{
+			background:url(../img/shared/botones/torremolinos/boton.png);
+		}
+	
+		/************************************ BENALMADENA *****************************************************/
+		#mapa_costadelsol #mapa .boton#benalmadena{
+			background:url(../img/shared/botones/benalmadena/boton.png);
+		}
+	
+		/************************************ FUENGIROLA *****************************************************/
+		#mapa_costadelsol #mapa .boton#fuengirola{
+			background:url(../img/shared/botones/fuengirola/boton.png);
+		}
+	
+		/************************************ MIJAS *****************************************************/
+		#mapa_costadelsol #mapa .boton#mijas{
+			background:url(../img/shared/botones/mijas/boton.png);
+		}
+	
+		/************************************ MARBELLA *****************************************************/
+		#mapa_costadelsol #mapa .boton#marbella{
+			background:url(../img/shared/botones/marbella/boton.png);
+		}
+	
+		/************************************ ESTEPONA *****************************************************/
+		#mapa_costadelsol #mapa .boton#estepona{
+			background:url(../img/shared/botones/estepona/boton.png);
+		}
+	
+		/************************************ MANILVA *****************************************************/
+		#mapa_costadelsol #mapa .boton#manilva{
+			background:url(../img/shared/botones/manilva/boton.png);		
+		}	
+	
+	
+	/**************************************************************** POBLACION DETALLE ********************************************************/
+	.icono{
+		background-size: 100% 100% !important;
+		background-position: center;
+	}	
+		
+	#poblacion_detalle .content a{
+		color:#444444 !important;
+	}
+	
+	#poblacion_detalle #descripcion_poblacion{
+		background-size: 100% 100% !important;	
+	}
+	
+	#poblacion_detalle .cat_div .icono{
+		float:left;
+	}
+	
+	#poblacion_detalle .cat_div .nombre{
+		float:left;
+	}
+	
+	
+
+	/*********************************************** LISTADO LUGARES POBLACIÓN ******************************/
+
+	#listado_lugares_poblacion .content{
+		background-color:white;
+	}
+	#listado_lugares_poblacion .lugar_div .thumb{
+		float:left;
+	}
+	#listado_lugares_poblacion .nombre{
+		float:left;
+		color: #333;
+	}
+
+	/*********************************************** PLAYA DETALLE *********************************************/
+	
+	#playas_detalle a#map_button{
+		float:right;
+	}
+	div.map_button{
+		background-size: 100% 100% !important;
+	}	
+	
+	
+	#playas_detalle .content{
+		background-color:white;
+	}
+
+	#playas_detalle .content .descripcion{
+		width:90%;
+		margin-left:5%;
+	}
+	
+	#playas_detalle .foto_detalle img{
+		width:90%;
+		margin-left:5%;	
+	}
+	
+	#playas_detalle .content .iconos{
+		width:90%;
+		margin-left:5%;
+	}	
+	
+	/*********************************************** LISTADO LUGARES COSTADELSOL ******************************/
+	#listado_lugares_costadelsol .content{
+		background-color:#272424;
+	}
+	#listado_lugares_costadelsol .lugar_div .thumb{
+		float:left;
+	}
+	
+	#listado_lugares_costadelsol .listado_lugares .nombre{
+		float:left;
+		color: #ddd;
+	}
+	
+	#listado_lugares_costadelsol .listado_poblaciones .nombre{
+		text-align:center;
+		float:left;
+		background-size: 100% 100% !IMPORTANT;
+	}
+
+	#listado_lugares_costadelsol h2{
+		background:url(../img/shared/degradados/costadelsol/header.png) repeat-x !IMPORTANT;	
+	}	
+	
+	#listado_lugares_costadelsol .header a#back_button .back_button{
+		background-image:url(../img/shared/botones/costadelsol/boton.png) !important;
+		background-repeat:no-repeat;
+		background-size:100% 100% !important;
+	}	
+	
+
+	/***************************************************** LUGAR DETALLE ****************************************************/
+	.detalle_lugar_generico h3{
+		color:#e75e36;
+	}
+	.detalle_lugar_generico a#map_button{ 
+		float:right;
+	}
+
+	#eltiempo .content{
+		background-color:white;
+	}
+	.detalle_lugar_generico .foto_detalle img{
+		width:90%;
+		margin-left:5%;	
+	}	
+	
+	.detalle_lugar_generico .descripcion{
+		width:90%;
+		margin-left:5%;	
+	}
+	
+	/***************************************************** MAPA LUGAR ****************************************************/
+	.bocadillo{
+		background-size: 100% 100% !IMPORTANT;
+		color:white !important;
+	}	
+	.cont_eltiempo{
+		height:210px;
+		margin:auto;
+		border:0 !important;
+	}
+	
+	.eltiempo_poblacion{
+		color:white !important;
+	}	
+	
+	
+@media screen and (max-width: 240px){
+	h1{
+		margin-top: 6px !important;
+		font-size: 12px !important;		
+	}
+	h2{
+		font-size:15px !important;
+		height:33px;
+		padding-top: 8px;
+		margin-bottom:5px;
+	}
+	h3{
+		font-size: 15px !important;
+	}
+	.header {
+		font-size:17px !important;
+		height:30px;
+	}
+	#loading_div{
+		margin-top:20%;
+	}
+	#home{
+		background-position: center -40px;
+	}
+background-position: center -40px;	
+	.boton{
+		font-size:7px !important;
+		width:48px;
+		height:16px;
+		padding-top:2px !important;
+		-webkit-border-top-left-radius:5px;
+		-webkit-border-top-right-radius:5px;
+		-webkit-border-bottom-right-radius:5px;
+		-webkit-border-bottom-left-radius:5px;
+	}
+	.ui-header .ui-btn-left{
+		left:5px !important;	
+	}
+	.header.costadelsol{
+		height:30px;
+	}
+	
+	.back_button{
+		height: 15px;
+		width: 48px;
+		font-size: 7px !important;
+		padding-top: 4px;
+		padding-left: 1px;
+		left:10px;	
+	}
+	
+	.flecha{
+		margin-right:10px;
+		width:20px;
+		height:30px;
+	}
+	
+	.flecha.large{
+		margin-top:15px;
+	}
+	
+	.content{
+		min-height:480px;
+	}
+	
+	.page{
+		min-height:530px;
+	}	
+	/*******************************************************************  HOME ***********************************************************************/
+	
+
+	#home #language_links{
+		margin-top:150px;
+		height:80px;
+	}
+	
+	#home #language_links a{
+		width:50px;
+		height:50px;
+		border:1px solid white;
+	}
+	
+	#home div.bandera{
+		width:50px;
+		height:50px;
+		margin-left:8px;
+	}
+	
+	/*******************************************************************  MENU PRINICPAL ***********************************************************************/
+	
+	#listado_categorias_costadelsol .cat_div{
+		margin-left:2px;
+		width:76px;
+		height:70px;
+		margin-bottom:26px;
+		font-size: 9px;	
+	}
+	
+	#listado_categorias_costadelsol .cat_name{
+		margin-top:73px;
+		width:80px;
+		margin-left: -5px;
+	}
+	
+	/*******************************************************************  LISTADO DE SUBCATEGORÍAS ***********************************************************************/
+		/************************************************************* LISTADO SUBCATEGORÍAS COSTADELSOL */
+		#listado_subcategorias.costadelsol .back_button{
+			height:20px;
+			width:20px;	
+			padding:0 !important;
+			margin-top: -3px;
+		}	
+		#listado_subcategorias.costadelsol .content{
+		}	
+		#listado_subcategorias.costadelsol .cat_div, #listado_subcategorias .costadelsol .void_row{
+			height:57px;
+			border-bottom:1px solid #888888;
+		}	
+		#listado_subcategorias.costadelsol .cat_div .icono{
+			height:45px;
+			width:45px;
+			margin:5px;
+		}	
+		#listado_subcategorias.costadelsol .cat_div .nombre{
+			margin-left: 5px;
+			margin-top: 21px;
+			font-size: 12px;
+		}
+		
+		#listado_subcategorias.costadelsol .cat_div .flecha{
+			margin-top:15px;
+		}
+		
+		/************************************************************* LISTADO SUBCATEGORÍAS POBLACION */	
+		#listado_subcategorias.poblacion .cat_div{
+			height:50px;
+			border-bottom:1px solid #888888;
+		}
+		
+		#listado_subcategorias.poblacion .cat_div .icono{
+			height: 40px;
+			width: 40px;
+			margin: 5px;
+		}
+		
+		#listado_subcategorias.poblacion .cat_div .nombre{
+			margin-left: 0;
+			margin-top: 20px;
+			font-size:13px;
+		}
+	
+		#listado_subcategorias.poblacion .cat_div .flecha{
+			margin-top:10px;
+		}
+	
+	
+	/*******************************************************************  MAPA ***********************************************************************/
+	
+	#mapa_costadelsol .back_button{
+		height:20px;
+		width:20px;	
+		padding:0 !important;
+		margin-top: -2px;
+	}
+	
+	#mapa_costadelsol .descripcion{
+		margin-top: 5px;
+		font-size: 10px;
+	}
+	
+	#mapa_costadelsol .descripcion p{
+		margin-bottom:0;
+	}
+	
+	#mapa_costadelsol #mapa{
+		height:160px;
+		margin-top:0;
+	}
+	#mapa_costadelsol #mapa .boton{	
+		width: 70px;
+		height: 18px;
+		padding-top: 2px;
+	}
+		/************************************ CASARES *****************************************************/
+		#mapa_costadelsol #mapa .boton#casares{
+			top: 55px;
+			left: 4px;
+			width: 50px;
+		}
+		/************************************ BENAHAVIS *****************************************************/
+		#mapa_costadelsol #mapa .boton#benahavis{
+			top:10px;
+			left:37px;
+		}
+		
+		/************************************ ISTÁN *****************************************************/
+		#mapa_costadelsol #mapa .boton#istan{
+			top:-45px;
+			left:70px;
+			width:40px;
+		}
+	
+		/************************************ OJEN *****************************************************/
+		#mapa_costadelsol #mapa .boton#ojen{
+			top: -40px;
+			left: 120px;
+			width: 40px;
+		}
+	
+		/************************************ TORREMOLINOS *****************************************************/
+		#mapa_costadelsol #mapa .boton#torremolinos{
+			top:-80px;
+			left:165px;
+		}
+	
+		/************************************ BENALMADENA *****************************************************/
+		#mapa_costadelsol #mapa .boton#benalmadena{
+			top:-65px;
+			left:170px;
+		}
+	
+		/************************************ FUENGIROLA *****************************************************/
+		#mapa_costadelsol #mapa .boton#fuengirola{
+			top: -57px;
+			left: 173px;
+			width: 60px;
+		}
+	
+		/************************************ MIJAS *****************************************************/
+		#mapa_costadelsol #mapa .boton#mijas{
+			top: -53px;
+			left: 145px;
+			WIDTH: 55PX;
+		}
+	
+		/************************************ MARBELLA *****************************************************/
+		#mapa_costadelsol #mapa .boton#marbella{
+			top: -47px;
+			left: 105px;
+			WIDTH: 60PX;
+		}
+	
+		/************************************ ESTEPONA *****************************************************/
+		#mapa_costadelsol #mapa .boton#estepona{
+			top: -47px;
+			left: 49px;
+			WIDTH: 55PX;
+		}
+	
+		/************************************ MANILVA *****************************************************/
+		#mapa_costadelsol #mapa .boton#manilva{
+			top: -40px;
+			left: 7px;
+			width: 48px;
+		}
+	
+		
+		.descripcion_poblacion{
+			padding: 15px;
+			margin-top: 5px;
+			margin-bottom: 40px;
+			-webkit-border-top-left-radius: 10px;
+			-webkit-border-top-right-radius: 10px;
+			-webkit-border-bottom-right-radius: 10px;
+			-webkit-border-bottom-left-radius: 10px;
+			line-height: 19px;
+			font-size: 11px;
+		}
+	
+	/**************************************************************** POBLACION DETALLE ********************************************************/
+	
+	#categorias_h2{
+		padding-top:5px;
+	}
+	
+	#categorias_poblacion .cat_div:first-child{
+		margin-top	:0 !important;	
+	}
+	
+	#poblacion_detalle{
+		height:820px;	
+	}
+	
+	#poblacion_detalle .content{
+		height:790px;	
+	}
+
+	#poblacion_detalle .cat_div{
+		height:40px;
+		border-bottom:1px solid #888888;
+	}
+	
+	#poblacion_detalle .cat_div .icono{
+		height:30px;
+		width:30px;
+		margin:5px;
+	}
+	
+	#poblacion_detalle .cat_div .nombre{
+		margin-left: 5px;
+		margin-top: 13px;
+		font-size: 12px;
+	}
+	#poblacion_detalle .cat_div .flecha{
+		margin-top: 5px;
+	}
+	
+	/*********************************************** LISTADO LUGARES POBLACIÓN ******************************/
+
+	#listado_lugares_poblacion .content .lugar_div{
+		height:56px;
+		border-bottom:1px solid #888888;
+	}
+	#listado_lugares_poblacion .lugar_div .thumb{
+		height:45px;
+		margin:5px;
+	}
+	#listado_lugares_poblacion .nombre{
+		margin-left: 5px;
+		margin-top: 20px;
+		font-size: 13px;
+	}
+	
+	/*********************************************** PLAYA DETALLE *********************************************/
+	
+
+	#playas_detalle  div.map_button{
+		height:15px;
+		width:48px;	
+		font-size: 9px !important;
+		padding-top: 2px;	
+	}
+	
+	#playas_detalle .content{
+		font-size: 12px;
+	}
+	
+	#playas_detalle .foto_detalle img{
+		margin-bottom:15px;
+	}
+	
+	#playas_detalle .label_valor {
+		margin-left:10px;
+	}
+	
+	#playas_detalle .label {
+		margin-right: 10px;
+	}
+	
+	#playas_detalle .iconos{
+		margin-top:15px;
+		margin-left:10px;
+	}
+	
+	#playas_detalle .iconos img.icono{
+		width: 30px;
+		margin-right:5px;
+		margin-bottom:5px;
+	}
+	
+	/*********************************************** MAPA LUGAR *********************************************/
+	.bocadillo{
+		font-size:10px !important;
+		width:150px;	
+		height:39px;
+		margin-left: -100px;
+		margin-top: -53px;	
+		padding-left:10px;
+	}
+	
+	.bocadillo .nombre_lugar{
+		margin-top: -10px;
+		font-size: 8px !important;
+	}
+	
+	.bocadillo .direccion_lugar{
+		margin-top: 3px;
+		font-size: 8px !important;	
+		
+	}
+	
+	/*********************************************** LISTADO LUGARES COSTADELSOL ******************************/
+
+	#listado_lugares_costadelsol .content .lugar_div{
+		height:55px;
+		border-bottom:1px solid #757678;
+	}
+	#listado_lugares_costadelsol .lugar_div .thumb{
+		height:45px;
+		margin:5px;
+	}
+	
+	#listado_lugares_costadelsol .listado_lugares .nombre{
+		margin-left: 5px;
+		margin-top: 20px;
+		font-size: 13px;
+	}
+	
+	#listado_lugares_costadelsol .lugar_div .flecha{
+		margin-top:15px;
+	}
+	
+	#listado_lugares_costadelsol h2{
+		height:35px;
+	}
+	
+	
+	#listado_lugares_costadelsol .listado_poblaciones .poblacion_div{
+		border-bottom:1px solid #757678;
+		height:50px;
+	}
+		
+	#listado_lugares_costadelsol .listado_poblaciones .nombre{
+		width:90px;
+		height:28px;	
+		padding-top:5px;
+		margin-top:10px;
+		margin-left:10px;
+		font-size:13px;
+	}
+	#listado_lugares_costadelsol .listado_poblaciones .flecha.large{
+		margin-top:10px;
+	}
+	
+	/***************************************************** LUGAR DETALLE ****************************************************/
+	.detalle_lugar_generico  div.map_button{
+		height: 15px;
+		width: 48px;
+		font-size: 9px !important;
+		padding-top: 2px;	
+	}
+	.detalle_lugar_generico .descripcion{
+		font-size: 12px;
+		line-height: 18px;		
+	}
+	
+	/***************************************************** EL TIEMPO ****************************************************/
+	#eltiempo .ldpi{
+		margin-top:10px;
+	}
+	
+	.cont_eltiempo{
+		margin-top:30px;
+	}
+}
+
+/* MDPI*/
+@media screen and (min-width: 241px) and (max-width: 479px) {
+	h1{
+		margin-top: 12px !important;
+		font-size: 12px !important;		
+	}
+	h2{
+		font-size:15px !important;
+		height:33px;
+		padding-top: 8px;
+		margin-bottom:5px;
+	}
+	h3{
+		font-size: 15px !important;
+	}
+	.header {
+		font-size:17px !important;
+		height:40px;
+	}
+	#loading_div{
+		margin-top:30%;
+	}	
+	.boton{
+		font-size:7px !important;
+		width:48px;
+		height:16px;
+		padding-top:2px !important;
+		-webkit-border-top-left-radius:5px;
+		-webkit-border-top-right-radius:5px;
+		-webkit-border-bottom-right-radius:5px;
+		-webkit-border-bottom-left-radius:5px;
+	}
+	.ui-header .ui-btn-left{
+		left:5px !important;	
+	}
+	
+	.header.costadelsol{
+		height:40px;
+	}
+	
+	.back_button{
+		height: 22px;
+		width: 66px;
+		font-size: 9px !important;
+		padding-top: 5px;
+		padding-left: 0;
+		left: 10px;
+		margin-top: 3px;
+	}
+	
+	.flecha{
+		margin-right:10px;
+		width:20px;
+		height:30px;
+	}
+	
+	.flecha.large{
+		margin-top:15px;
+	}
+	
+	.content{
+		min-height:480px;
+	}
+	.page{
+		min-height:530px;
+	}	
+	
+	/*******************************************************************  HOME ***********************************************************************/
+	
+	#home #language_links{
+		margin-top:230px;
+		height:80px;
+	}
+	
+	#home #language_links a{
+		width:50px;
+		height:50px;
+		border:1px solid white;
+	}
+	
+	#home div.bandera{
+		width:70px;
+		height:70px;
+		margin-left:8px;
+	}
+	
+	/*******************************************************************  MENU PRINICPAL ***********************************************************************/
+	#listado_categorias_costadelsol .cat_div{
+		margin-left:12px;
+		width:90px;
+		height:90px;
+		margin-bottom:26px;
+		margin-top:20px;
+		font-size: 9px;	
+	}
+	
+	#listado_categorias_costadelsol .cat_name{
+		margin-top: 100px;
+		width: 90px;
+		font-size: 11px;
+	}
+	
+	/*******************************************************************  LISTADO DE SUBCATEGORÍAS ***********************************************************************/
+		/************************************************************* LISTADO SUBCATEGORÍAS COSTADELSOL */
+		#listado_subcategorias.costadelsol .back_button{
+			height: 27px;
+			width: 27px;
+			padding: 0 !important;
+			margin-top: -1px;
+			margin-left: 5px;
+		}	
+		#listado_subcategorias.costadelsol .content{
+		}	
+		#listado_subcategorias.costadelsol .cat_div, #listado_subcategorias .costadelsol .void_row{
+			height:57px;
+			border-bottom:1px solid #888888;
+		}	
+		#listado_subcategorias.costadelsol .cat_div .icono{
+			height:45px;
+			width:45px;
+			margin:5px;
+		}	
+		#listado_subcategorias.costadelsol .cat_div .nombre{
+			margin-left: 5px;
+			margin-top: 21px;
+			font-size: 12px;
+		}
+
+		#listado_subcategorias.costadelsol .cat_div .flecha{
+			margin-top:15px;
+		}
+		
+		/************************************************************* LISTADO SUBCATEGORÍAS POBLACION */	
+		#listado_subcategorias.poblacion .cat_div{
+			height:60px;
+			border-bottom:1px solid #888888;
+		}
+		
+		#listado_subcategorias.poblacion .cat_div .icono{
+			height: 50px;
+			width: 50px;
+			margin: 5px;
+		}
+		
+		#listado_subcategorias.poblacion .cat_div .nombre{
+			margin-left: 0;
+			margin-top: 20px;
+			font-size:13px;
+		}
+	
+		#listado_subcategorias.poblacion .cat_div .flecha{
+			margin-top: 15px;
+			margin-right: 20px;
+		}
+	
+	
+	/*******************************************************************  MAPA ***********************************************************************/
+	#mapa_costadelsol .back_button{
+		height: 27px;
+		width: 27px;
+		padding: 0 !important;
+		margin-top: -2px;
+		margin-left: 5px;
+	}
+	
+	#mapa_costadelsol .descripcion{
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	
+	#mapa_costadelsol #mapa{
+		height:160px;
+		margin-top:40px;
+	}
+	/************************************ CASARES *****************************************************/
+	#mapa_costadelsol #mapa .boton#casares{
+		top:37px;
+		left:4px;
+	}
+	/************************************ BENAHAVIS *****************************************************/
+	#mapa_costadelsol #mapa .boton#benahavis{
+		top:0;
+		left:57px;
+	}
+	
+	/************************************ ISTÁN *****************************************************/
+	#mapa_costadelsol #mapa .boton#istan{
+		top:-46px;
+		left:100px;
+	}
+
+	/************************************ OJEN *****************************************************/
+	#mapa_costadelsol #mapa .boton#ojen{
+		top:-43px;
+		left:160px;
+	}
+
+	/************************************ TORREMOLINOS *****************************************************/
+	#mapa_costadelsol #mapa .boton#torremolinos{
+		top:-70px;
+		left:260px;
+	}
+
+	/************************************ BENALMADENA *****************************************************/
+	#mapa_costadelsol #mapa .boton#benalmadena{
+		top: -35px;
+		left: 270px;
+	}
+
+	/************************************ FUENGIROLA *****************************************************/
+	#mapa_costadelsol #mapa .boton#fuengirola{
+		top:-18px;
+		left:250px;
+	}
+
+	/************************************ MIJAS *****************************************************/
+	#mapa_costadelsol #mapa .boton#mijas{
+		top: -95px;
+		left: 215px;
+	}
+
+	/************************************ MARBELLA *****************************************************/
+	#mapa_costadelsol #mapa .boton#marbella{
+		top: -42px;
+		left: 155px;
+	}
+
+	/************************************ ESTEPONA *****************************************************/
+	#mapa_costadelsol #mapa .boton#estepona{
+		top: -30px;
+		left: 79px;
+	}
+
+	/************************************ MANILVA *****************************************************/
+	#mapa_costadelsol #mapa .boton#manilva{
+		top:-15px;
+		left:12px;
+	}
+	
+		
+		.descripcion_poblacion{
+			padding: 15px;
+			margin-top: 25px;
+			margin-bottom: 25px;
+			-webkit-border-top-left-radius: 10px;
+			-webkit-border-top-right-radius: 10px;
+			-webkit-border-bottom-right-radius: 10px;
+			-webkit-border-bottom-left-radius: 10px;
+			line-height: 19px;
+			font-size: 12px;
+		}
+	
+	/**************************************************************** POBLACION DETALLE ********************************************************/
+	
+	#categorias_h2{
+		padding-top:5px;
+	}
+	
+	#categorias_poblacion .cat_div:first-child{
+	
+	}
+	
+	#poblacion_detalle{
+		height:820px;	
+	}
+	
+	#poblacion_detalle .content{
+		height:790px;	
+	}
+
+	#poblacion_detalle .cat_div{
+		height:60px;
+		border-bottom:1px solid #888888;
+	}
+	
+	#poblacion_detalle .cat_div .icono{
+		height:50px;
+		width:50px;
+		margin:5px;
+	}
+	
+	#poblacion_detalle .cat_div .nombre{
+		margin-left: 5px;
+		margin-top: 23px;
+		font-size: 12px;
+	}
+	#poblacion_detalle .cat_div .flecha{
+		margin-top: 15px;
+		margin-right: 20px;
+	}
+	
+	/*********************************************** LISTADO LUGARES POBLACIÓN ******************************/
+
+	#listado_lugares_poblacion .content .lugar_div{
+		height:60px;
+		border-bottom:1px solid #888888;
+	}
+	#listado_lugares_poblacion .lugar_div .thumb{
+		height:50px;
+		margin:5px;
+	}
+	#listado_lugares_poblacion .nombre{
+		margin-left: 5px;
+		margin-top: 20px;
+		font-size: 13px;
+	}
+	
+	/*********************************************** PLAYA DETALLE *********************************************/
+	
+
+	#playas_detalle  div.map_button{
+		height:22px;
+		width:66px;	
+		font-size: 9px !important;
+		padding-top: 5px;	
+		margin-top:3px;
+	}
+	
+	#playas_detalle .content .descripcion{
+		font-size: 12px;
+		line-height:20px;
+	}
+	
+	#playas_detalle .foto_detalle img{
+		margin-bottom:15px;
+	}
+	
+	#playas_detalle .label_valor {
+		margin-left:10px;
+	}
+	
+	#playas_detalle .label {
+		margin-right: 10px;
+	}
+	
+	#playas_detalle .iconos{
+		margin-top:15px;
+		margin-left:10px;
+	}
+	
+	#playas_detalle .iconos img.icono{
+		margin-right:5px;
+		margin-bottom:5px;
+		width: 30px;		
+	}
+	
+	/*********************************************** MAPA LUGAR *********************************************/
+	.bocadillo{
+		font-size:10px !important;
+		width:200px;	
+		height:53px;
+		margin-left: -100px;
+		margin-top: -53px;	
+		padding-left:10px;
+	}
+	
+	.bocadillo .nombre_lugar{
+		margin-top: -10px;
+		font-size: 12px !important;
+	}
+	
+	.bocadillo .direccion_lugar{
+		margin-top: 3px;
+		font-size: 11px !important;	
+		
+	}
+	
+	/*********************************************** LISTADO LUGARES COSTADELSOL ******************************/
+
+	#listado_lugares_costadelsol .content .lugar_div{
+		height:55px;
+		border-bottom:1px solid #757678;
+	}
+	#listado_lugares_costadelsol .lugar_div .thumb{
+		height:45px;
+		margin:5px;
+	}
+	
+	#listado_lugares_costadelsol .listado_lugares .nombre{
+		margin-left: 5px;
+		margin-top: 20px;
+		font-size: 13px;
+	}
+	
+	#listado_lugares_costadelsol .lugar_div .flecha{
+		margin-top:15px;
+	}
+	
+	#listado_lugares_costadelsol h2{
+		height:35px;
+	}
+	
+	
+	#listado_lugares_costadelsol .listado_poblaciones .poblacion_div{
+		border-bottom:1px solid #757678;
+		height:50px;
+	}
+		
+	#listado_lugares_costadelsol .listado_poblaciones .nombre{
+		width:90px;
+		height:28px;	
+		padding-top:5px;
+		margin-top:10px;
+		margin-left:10px;
+		font-size:13px;
+	}
+	#listado_lugares_costadelsol .listado_poblaciones .flecha.large{
+		margin-top:10px;
+	}
+	
+	/***************************************************** LUGAR DETALLE ****************************************************/
+	.detalle_lugar_generico  div.map_button{
+		height: 22px;
+		width: 66px;
+		font-size: 9px !important;
+		padding-top: 5px;
+		margin-top:3px;	
+	}
+	.detalle_lugar_generico .descripcion{
+		font-size: 12px;
+		line-height: 18px;		
+	}
+	
+	/***************************************************** EL TIEMPO ****************************************************/
+	#eltiempo .ldpi{
+		margin-top:10px;
+	}
+	.cont_eltiempo{
+		margin-top:60px;
+	}
+}
+/* HDPI */
+@media screen and (min-width: 480px) and (max-width: 639px) {
+	h1{
+		margin-top: 6px !important;
+		font-size: 25px !important;
+	}
+	h2{
+		font-size:16px !important;
+		height:33px;
+		padding-top: 8px;
+		margin-bottom:5px;
+	}
+	h3{
+		font-size: 15px !important;
+	}
+	.header {
+		font-size:17px !important;
+		height:45px;
+	}
+	#loading_div{
+		margin-top:40%;
+	}	
+	.boton{
+		font-size:12px !important;
+		width:85px;
+		height:26px;
+		padding-top:5px !important;
+		-webkit-border-top-left-radius:5px;
+		-webkit-border-top-right-radius:5px;
+		-webkit-border-bottom-right-radius:5px;
+		-webkit-border-bottom-left-radius:5px;
+	}
+	.ui-header .ui-btn-left{
+		left:5px !important;	
+	}
+	
+	.header.costadelsol{
+	}
+	
+	.back_button{
+		height: 25px;
+		width: 80px;
+		font-size: 12px !important;
+		padding-top: 4px;
+		padding-left: 1px;
+		margin-top: 3px;
+		margin-left: 3px;
+		left:10px;					
+	}
+	
+	.flecha{
+		margin-right:10px;
+		width:20px;
+		height:30px;
+	}
+	
+	.flecha.large{
+		margin-top:15px;
+	}
+	
+	.content{
+		min-height:800px !important;
+	}
+	.page{
+		min-height:850px;
+	}	
+	/*******************************************************************  HOME ***********************************************************************/
+	
+	#home #language_links{
+		margin-top:350px;
+		height:110px;
+	}
+	
+	#home #language_links a{
+		width:50px;
+		height:50px;
+		border:1px solid white;
+	}
+	
+	#home div.bandera{
+		width:110px;
+		height:110px;
+		margin-left:8px;
+	}
+	
+	/*******************************************************************  MENU PRINICPAL ***********************************************************************/
+	#listado_categorias_costadelsol .cat_div{
+		margin-left: 10px;
+		width: 150px;
+		height: 150px;
+		margin-bottom: 46px;
+		font-size: 15px;
+		margin-top: 30px;	
+	}
+	
+	#listado_categorias_costadelsol .cat_name{
+		margin-top: 160px;
+		width: 160px;
+	}
+	
+	/*******************************************************************  LISTADO DE SUBCATEGORÍAS ***********************************************************************/
+	#listado_subcategorias .content .cat_div{
+		height:80px;
+		border-bottom:1px solid #888888;
+	}	
+	
+	#listado_subcategorias .cat_div .icono{
+		height: 70px !important;
+		width: 70px !important;
+		margin: 5px;
+	}
+	#listado_subcategorias .cat_div .nombre{
+		margin-left: 10px !important;
+		margin-top: 31px !important;
+		font-size:16px;
+	}	
+	#listado_subcategorias .cat_div .flecha{
+		margin-top:25px;
+		margin-right:30px;
+	}	
+		
+		/************************************************************* LISTADO SUBCATEGORÍAS COSTADELSOL */
+		#listado_subcategorias.costadelsol .back_button{
+			height:30px;
+			width:30px;	
+			padding:0 !important;
+			margin-top: -1px;
+		}	
+		#listado_subcategorias.costadelsol .content{
+		}	
+		
+	
+	
+	/*******************************************************************  MAPA ***********************************************************************/
+	#mapa_costadelsol .back_button{
+		height:30px;
+		width:30px;	
+		padding:0 !important;
+		margin-top: 0;
+	}
+	
+	#mapa_costadelsol .descripcion{
+		margin-top: 60px;
+		font-size: 16px;
+		line-height: 25px;
+	}
+	
+	#mapa_costadelsol #mapa{
+		height: 300px;
+		margin-top: 100px;		
+	}
+		/************************************ CASARES *****************************************************/
+		#mapa_costadelsol #mapa .boton#casares{
+			top:87px;
+			left:4px;
+		}
+		/************************************ BENAHAVIS *****************************************************/
+		#mapa_costadelsol #mapa .boton#benahavis{
+			top:20;
+			left:87px;
+		}
+		
+		/************************************ ISTÁN *****************************************************/
+		#mapa_costadelsol #mapa .boton#istan{
+			top:-76px;
+			left:160px;
+		}
+	
+		/************************************ OJEN *****************************************************/
+		#mapa_costadelsol #mapa .boton#ojen{
+			top:-40px;
+			left:230px;
+		}
+	
+		/************************************ TORREMOLINOS *****************************************************/
+		#mapa_costadelsol #mapa .boton#torremolinos{
+			top:-100px;
+			left:390px;
+		}
+	
+		/************************************ BENALMADENA *****************************************************/
+		#mapa_costadelsol #mapa .boton#benalmadena{
+			top:-90px;
+			left:340px;
+		}
+	
+		/************************************ FUENGIROLA *****************************************************/
+		#mapa_costadelsol #mapa .boton#fuengirola{
+			top: -60px;
+			left: 385px;
+		}
+	
+		/************************************ MIJAS *****************************************************/
+		#mapa_costadelsol #mapa .boton#mijas{
+			top:-40px;
+			left:340px;
+		}
+	
+		/************************************ MARBELLA *****************************************************/
+		#mapa_costadelsol #mapa .boton#marbella{
+			top: -65px;
+			left: 225px;
+		}
+	
+		/************************************ ESTEPONA *****************************************************/
+		#mapa_costadelsol #mapa .boton#estepona{
+			top:-45px;
+			left:109px;
+		}
+	
+		/************************************ MANILVA *****************************************************/
+		#mapa_costadelsol #mapa .boton#manilva{
+			top:-25px;
+			left:7px;
+		}
+	
+		
+		.descripcion_poblacion{
+			padding: 15px;
+			margin-top: 25px;
+			margin-bottom: 40px;
+			-webkit-border-top-left-radius: 10px;
+			-webkit-border-top-right-radius: 10px;
+			-webkit-border-bottom-right-radius: 10px;
+			-webkit-border-bottom-left-radius: 10px;
+			line-height: 24px;
+			font-size: 14px;
+		}
+	
+	/**************************************************************** POBLACION DETALLE ********************************************************/
+	
+	#categorias_h2{
+		padding-top:7px;
+	}
+	
+	#categorias_poblacion .cat_div:first-child{
+		margin-top	:0 !important;	
+	}
+	
+	#poblacion_detalle{
+		height:850px;	
+	}
+	
+	#poblacion_detalle .content{
+		height:790px;	
+	}
+
+	#poblacion_detalle .cat_div{
+		height:55px;
+		border-bottom:1px solid #888888;
+	}
+	
+	#poblacion_detalle .cat_div .icono{
+		height:45px;
+		width:45px;
+		margin:5px;
+	}
+	
+	#poblacion_detalle .cat_div .nombre{
+		margin-left: 10px;
+		margin-top: 19px;
+		font-size: 17px;
+	}
+	#poblacion_detalle .cat_div .flecha{
+		margin-top: 12px;
+		margin-right:25px;
+	}
+	
+	/*********************************************** LISTADO LUGARES POBLACIÓN ******************************/
+
+	#listado_lugares_poblacion .content .lugar_div{
+		height:56px;
+		border-bottom:1px solid #888888;
+	}
+	#listado_lugares_poblacion .lugar_div .thumb{
+		height:45px;
+		margin:5px;
+	}
+	#listado_lugares_poblacion .nombre{
+		margin-left: 5px;
+		margin-top: 20px;
+		font-size: 13px;
+	}
+	
+	/*********************************************** PLAYA DETALLE *********************************************/
+	
+
+	#playas_detalle  div.map_button{
+		height:25px;
+		width:80px;	
+		font-size: 12px !important;
+		padding-top: 5px;
+		margin-top:3px;	
+	}
+	
+	#playas_detalle .content{
+		font-size: 12px;
+	}
+	
+	#playas_detalle .foto_detalle img{
+		margin-bottom:15px;
+	}
+	
+	#playas_detalle .label_valor {
+		margin-left:10px;
+	}
+	
+	#playas_detalle .label {
+		margin-right: 10px;
+	}
+	
+	#playas_detalle .iconos{
+		margin-top:15px;
+		margin-left:10px;
+	}
+	
+	#playas_detalle .iconos img.icono{
+		margin-right: 8px;
+		margin-bottom: 5px;
+		width: 40px;
+	}
+	
+	/*********************************************** MAPA LUGAR *********************************************/
+	.bocadillo{
+		font-size:10px !important;
+		width:200px;	
+		height:53px;
+		margin-left: -100px;
+		margin-top: -53px;	
+		padding-left:10px;
+	}
+	
+	.bocadillo .nombre_lugar{
+		margin-top: -10px;
+		font-size: 12px !important;
+	}
+	
+	.bocadillo .direccion_lugar{
+		margin-top: 3px;
+		font-size: 11px !important;	
+		
+	}
+	
+	/*********************************************** LISTADO LUGARES COSTADELSOL ******************************/
+
+	#listado_lugares_costadelsol .content .lugar_div{
+		height:55px;
+		border-bottom:1px solid #757678;
+	}
+	#listado_lugares_costadelsol .lugar_div .thumb{
+		height:45px;
+		margin:5px;
+	}
+	
+	#listado_lugares_costadelsol .listado_lugares .nombre{
+		margin-left: 5px;
+		margin-top: 20px;
+		font-size: 13px;
+	}
+	
+	#listado_lugares_costadelsol .lugar_div .flecha{
+		margin-top:15px;
+	}
+	
+	#listado_lugares_costadelsol h2{
+		height:35px;
+	}
+	
+	
+	#listado_lugares_costadelsol .listado_poblaciones .poblacion_div{
+		border-bottom:1px solid #757678;
+		height:50px;
+	}
+		
+	#listado_lugares_costadelsol .listado_poblaciones .nombre{
+		width:90px;
+		height:28px;	
+		padding-top:5px;
+		margin-top:10px;
+		margin-left:10px;
+		font-size:13px;
+	}
+	#listado_lugares_costadelsol .listado_poblaciones .flecha.large{
+		margin-top:10px;
+	}
+	
+	/***************************************************** LUGAR DETALLE ****************************************************/
+	.detalle_lugar_generico  div.map_button{
+		height: 25px;
+		width: 80px;
+		font-size: 12px !important;
+		padding-top: 5px;	
+	}
+	.detalle_lugar_generico .descripcion{
+		font-size: 12px;
+		line-height: 18px;		
+	}
+	
+	/***************************************************** EL TIEMPO ****************************************************/
+	#eltiempo .ldpi{
+		margin-top:10px;
+	}
+	.cont_eltiempo{
+		margin-top:120px;	
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.page{
+		min-height:1280px !important;
+		font-size:19px;
+	}
+	h1{
+		margin-top: 10px !important;
+		margin-top: 27px !important;
+		font-size: 28px !important;
+	}
+	h2{
+		height:53px;
+		padding-top: 8px;
+		margin-bottom:5px;
+		font-size:22px;
+	}
+	h3{
+		font-size:19px;
+	}
+	
+	.header {
+		height:80px;
+	}
+
+	#loading_div{
+		margin-top:200px;
+	}		
+	
+	.boton{
+		font-size: 16px !important;
+		width: 105px;
+		height: 30px;
+		padding-top: 5px !important;
+		-webkit-border-top-left-radius:5px;
+		-webkit-border-top-right-radius:5px;
+		-webkit-border-bottom-right-radius:5px;
+		-webkit-border-bottom-left-radius:5px;
+	}
+	.ui-header .ui-btn-left{
+		left:5px !important;	
+	}
+	
+	.header.costadelsol{
+	}
+	
+	.back_button{
+	height: 40px;
+	width: 150px;
+	font-size: 19px !important;
+	padding-top: 9px;
+	padding-left: 1px;
+	margin-top: 13px;
+	margin-left: 3px;
+	left: 10px;				
+	}
+	
+	.flecha{
+		margin-right:40px;
+		width:28px;
+		height:42px;
+		margin-top:30px;
+	}
+	
+	.content{
+		min-height:1230px !important;
+	}
+	
+	/*******************************************************************  HOME ***********************************************************************/
+	
+	#home #language_links{
+		margin:auto;
+		margin-top:560px;
+		height:140px;
+		width:680px;
+	}
+	
+	#home #language_links a{
+		width:50px;
+		height:50px;
+		border:1px solid white;
+	}
+	
+	#home div.bandera#espanol{
+		margin-left:0;
+	}	
+	
+	#home div.bandera{
+		width:140px;
+		height:140px;
+		margin-left:40px;
+	}
+	
+	/*******************************************************************  MENU PRINICPAL ***********************************************************************/
+	#listado_categorias_costadelsol .cat_div{
+		margin-left: 30px !IMPORTANT;
+		width: 220px;
+		height: 220px;
+		margin-bottom: 46px;
+		margin-top: 50px;	
+	}
+	
+	#listado_categorias_costadelsol .cat_name{
+		margin-top: 230px;
+		width: 220px;
+	}
+	
+	/*******************************************************************  LISTADO DE SUBCATEGORÍAS ***********************************************************************/
+	#listado_subcategorias .content .cat_div{
+		height:120px;
+		border-bottom:1px solid #888888;
+	}	
+	
+	#listado_subcategorias .cat_div .icono{
+		height: 100px !important;
+		width: 100px !important;
+		margin: 10px;
+	}
+	#listado_subcategorias .cat_div .nombre{
+		margin-left: 10px !important;
+		margin-top: 51px !important;
+	}	
+	#listado_subcategorias .cat_div .flecha{
+		margin-top:45px;
+		margin-right:60px;
+	}	
+		
+		/************************************************************* LISTADO SUBCATEGORÍAS COSTADELSOL */
+		#listado_subcategorias.costadelsol .back_button{
+			height: 60px;
+			width: 60px;
+			padding: 0 !important;
+			margin-top: 4px;
+			margin-left: 5px;
+		}	
+		#listado_subcategorias.costadelsol .content{
+		}	
+		
+	
+	
+	/*******************************************************************  MAPA ***********************************************************************/
+	#mapa_costadelsol .back_button{
+		height:60px;
+		width:60px;	
+		padding:0 !important;
+		margin-top: 0;
+	}
+	
+	#mapa_costadelsol .descripcion{
+		margin-top: 120px;
+		line-height: 30px;
+	}
+	
+	#mapa_costadelsol .descripcion p{
+		margin-bottom: 30px;
+	}	
+	
+	#mapa_costadelsol #mapa{
+		height: 300px;
+		margin-top: 200px;		
+	}
+		/************************************ CASARES *****************************************************/
+		#mapa_costadelsol #mapa .boton#casares{
+			top:87px;
+			left:4px;
+		}
+		/************************************ BENAHAVIS *****************************************************/
+		#mapa_costadelsol #mapa .boton#benahavis{
+			top:40px;
+			left:160px;
+		}
+		
+		/************************************ ISTÁN *****************************************************/
+		#mapa_costadelsol #mapa .boton#istan{
+			top:-76px;
+			left:290px;
+		}
+	
+		/************************************ OJEN *****************************************************/
+		#mapa_costadelsol #mapa .boton#ojen{
+			top:-60px;
+			left:440px;
+		}
+	
+		/************************************ TORREMOLINOS *****************************************************/
+		#mapa_costadelsol #mapa .boton#torremolinos{
+			top:-130px;
+			left:690px;
+		}
+	
+		/************************************ BENALMADENA *****************************************************/
+		#mapa_costadelsol #mapa .boton#benalmadena{
+			top: -120px;
+			left: 620px;
+		}
+	
+		/************************************ FUENGIROLA *****************************************************/
+		#mapa_costadelsol #mapa .boton#fuengirola{
+			top: -80px;
+			left: 665px;
+		}
+	
+		/************************************ MIJAS *****************************************************/
+		#mapa_costadelsol #mapa .boton#mijas{
+			top: -50px;
+			left: 580px;
+		}
+	
+		/************************************ MARBELLA *****************************************************/
+		#mapa_costadelsol #mapa .boton#marbella{
+			top: -75px;
+			left: 405px;
+		}
+	
+		/************************************ ESTEPONA *****************************************************/
+		#mapa_costadelsol #mapa .boton#estepona{
+			top: -65px;
+			left: 209px;
+		}
+	
+		/************************************ MANILVA *****************************************************/
+		#mapa_costadelsol #mapa .boton#manilva{
+			top: 0;
+			left: 57px;
+		}
+	
+		
+		.descripcion_poblacion{
+			padding: 35px;
+			margin-top: 25px;
+			margin-bottom: 40px;
+			-webkit-border-top-left-radius: 10px;
+			-webkit-border-top-right-radius: 10px;
+			-webkit-border-bottom-right-radius: 10px;
+			-webkit-border-bottom-left-radius: 10px;
+			line-height: 36px;
+		}
+	
+	/**************************************************************** POBLACION DETALLE ********************************************************/
+	
+	#categorias_h2{
+		padding-top:12px;
+	}
+	
+	#categorias_poblacion .cat_div:first-child{
+		margin-top	:0 !important;	
+	}
+	
+	#poblacion_detalle{
+		height:1350px;	
+	}
+	
+	#poblacion_detalle .content{
+		height:790px;	
+	}
+
+	#poblacion_detalle .cat_div{
+		height:120px;
+		border-bottom:1px solid #888888;
+	}
+	
+	#poblacion_detalle .cat_div .icono{
+		height: 100px;
+		width: 100px;
+		margin: 10px;
+	}
+	
+	#poblacion_detalle .cat_div .nombre{
+		margin-left: 20px;
+		margin-top: 50px;
+	}
+	#poblacion_detalle .cat_div .flecha{
+		margin-top: 40px;
+		margin-right: 45px;
+	}
+	
+	/*********************************************** LISTADO LUGARES POBLACIÓN ******************************/
+
+	#listado_lugares_poblacion .content .lugar_div{
+		height:120px;
+		border-bottom:1px solid #888888;
+	}
+	#listado_lugares_poblacion .lugar_div .thumb{
+		height:100px;
+		margin:10px;
+	}
+	#listado_lugares_poblacion .nombre{
+		margin-left: 35px;
+		margin-top: 50px;
+	}
+	
+	/*********************************************** PLAYA DETALLE *********************************************/
+	
+
+	#playas_detalle  div.map_button{
+		height: 40px;
+		width: 150px;
+		font-size: 19px !important;
+		padding-top: 10px;
+		margin-top: 15px;	
+	}
+	
+	#playas_detalle .content{
+	}
+	
+	#playas_detalle .foto_detalle img{
+		margin-bottom:15px;
+	}
+	
+	#playas_detalle .label_valor {
+		margin-left:10px;
+	}
+	
+	#playas_detalle .label {
+		margin-right: 10px;
+	}
+	
+	#playas_detalle .iconos{
+		margin-top:15px;
+		margin-left:10px;
+	}
+	
+	#playas_detalle .iconos img.icono{
+		margin-right: 12px;
+		margin-bottom: 10px;
+		width: 60px;
+	}
+	
+	/*********************************************** MAPA LUGAR *********************************************/
+	.bocadillo{
+		width: 250px;
+		height: 75px;
+		margin-left: -100px;
+		margin-top: -53px;
+		padding-left: 10px;
+	}
+	
+	.bocadillo .nombre_lugar{
+		margin-top: -15px;
+		font-size: 14px !important;
+	}
+	
+	.bocadillo .direccion_lugar{
+		margin-top: 5px;
+		font-size: 13px !important;	
+		
+	}
+	
+	/*********************************************** LISTADO LUGARES COSTADELSOL ******************************/
+
+	#listado_lugares_costadelsol h2 {
+		padding-top:14px;
+	}	
+	
+	#listado_lugares_costadelsol .content .lugar_div{
+		height:120px;
+		border-bottom:1px solid #757678;
+	}
+	#listado_lugares_costadelsol .lugar_div .thumb{
+		height:100px;
+		margin:10px;
+	}
+	
+	#listado_lugares_costadelsol .listado_lugares .nombre{
+		margin-left: 15px;
+		margin-top: 50px;
+	}
+	
+	#listado_lugares_costadelsol .listado_poblaciones .poblacion_div{
+		border-bottom:1px solid #757678;
+		height:85px;
+	}
+		
+	#listado_lugares_costadelsol .listado_poblaciones .nombre{
+		width: 180px;
+		height: 60px;
+		padding-top: 20px;
+		margin-top: 11px;
+		margin-left: 10px;
+	}
+	#listado_lugares_costadelsol .listado_poblaciones .flecha.large{
+		margin-top:20px;
+	}
+	
+	/***************************************************** LUGAR DETALLE ****************************************************/
+	.detalle_lugar_generico  div.map_button{
+		height: 40px;
+		width: 150px;
+		font-size: 19px !important;
+		padding-top: 9px;
+		margin-top: 13px;
+	}
+	.detalle_lugar_generico .descripcion{
+		line-height: 36px;		
+	}
+	
+	#playas_detalle .content .descripcion{
+		line-height: 36px;
+	}
+	
+	/***************************************************** EL TIEMPO ****************************************************/
+	#eltiempo .ldpi{
+		margin-top:10px;
+	}
+	
+	.cont_eltiempo{
+		margin-top:150px;	
+	}	
+
+}
